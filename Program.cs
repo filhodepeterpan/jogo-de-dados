@@ -1,7 +1,9 @@
-﻿using System;
+﻿﻿using System;
+
 class JogoDosDados{
     static void Main(){
-        Random jogada = new();
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        Random jogada = new Random();
 
         int primeiroDado = jogada.Next(1,7);
         int segundoDado = jogada.Next(1,7);
