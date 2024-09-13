@@ -1,10 +1,10 @@
 ﻿﻿using System;
 
-class JogoDosDados{
-    static void Main(){
+public class JogoDosDados{
+    public static void Main(){
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Random jogada = new Random();
-
+        
         int primeiroDado = jogada.Next(1,7);
         int segundoDado = jogada.Next(1,7);
         int terceiroDado = jogada.Next(1,7);
